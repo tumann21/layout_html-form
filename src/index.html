@@ -24,7 +24,8 @@
            name="surname"
            id="surname"
            autocomplete="off"
-           class="first">
+           class="first"
+          >
         </label>
         <br>
 
@@ -32,7 +33,9 @@
           <input
            type="text"
            name="name"
-           id="name" class="first">
+           id="name"
+           class="first"
+          >
         </label>
         <br>
 
@@ -44,7 +47,8 @@
            value="12"
            min="12"
            max="100"
-           class="first">
+           class="first"
+          >
         </label>
         <br>
 
@@ -52,7 +56,9 @@
           <input
            type="date"
            name="d-birth"
-           id="birth" class="first">
+           id="birth"
+           class="first"
+          >
         </label>
         <br>
 
@@ -60,7 +66,9 @@
           <input
            type="checkbox"
            name="yes"
-           id="agree" class="first">
+           id="agree"
+           class="first"
+          >
         </label>
         <br>
       </fieldset>
@@ -73,7 +81,8 @@
            type="email"
            name="email"
            id="e-post"
-           placeholder="email@example.com">
+           placeholder="email@example.com"
+          >
         </label>
         <br>
 
@@ -81,45 +90,59 @@
           <input
            type="password"
            name="pass"
-           id="passwo" class="first">
+           id="passwo"
+           class="first"
+          >
         </label>
       </fieldset>
 
       <fieldset class="field">
         <legend>An interesting fact about you!</legend>
 
-        <label for="" class="form-field">Do you love cats?
-          <input type="radio" name="cats">
+        <label for="yes" class="form-field">Do you love cats?
+          <input
+           type="radio"
+           name="cats"
+           id="yes"
+          >
         Yes
         </label>
-        <label for="">
-          <input type="radio" name="cats"
-           class="first">
+        <label for="no">
+          <input
+           type="radio"
+           name="cats"
+           class="first"
+           id="no"
+          >
         No
         </label>
         <br>
 
-        <label for="" class="form-field">What is your favorite color?
+        <label for="color" class="form-field">What is your favorite color?
           <input
            type="color"
            name="color"
-           class="first">
+           class="first"
+           id="color"
+          >
         </label>
         <br>
 
-        <label for="" class="form-field">What time do you go to bed?
+        <label for="time" class="form-field">What time do you go to bed?
           <input
            type="time"
            name="time"
            step="2"
-           class="first">
+           class="first"
+           id="time"
+          >
         </label>
         <br>
 
-        <label for="" class="form-field">What are your favorite brand of cars?
+        <label for="car" class="form-field">What are your favorite brand of cars?
           <select
            name="car"
-           id=""
+           id="car"
            class="first"
            multiple>
             <option value="bmw">BMW</option>
@@ -129,25 +152,36 @@
         </label>
         <br>
 
-        <label for="" class="form-field">How do you rate our work?
+        <label for="work" class="form-field">How do you rate our work?
           <input
            type="range"
            name="work"
            class="first"
-           value="0">
+           value="0"
+           id="work"
+          >
         </label>
       </fieldset>
 
       <fieldset class="field">
         <legend>Additional info:</legend>
 
-        <label for="" class="form-field">Comments:
-          <textarea cols="15" rows="2"></textarea>
+        <label for="text" class="form-field">Comments:
+          <textarea
+           cols="15"
+           rows="2"
+           id="text"
+           >
+          </textarea>
         </label>
         <br>
 
-        <label for="" class="form-field">Would you recomend us?
-          <select name="yes" class="first">
+        <label for="feedback" class="form-field">Would you recomend us?
+          <select
+           name="yes"
+           class="first"
+           id="feedback"
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>

@@ -9,18 +9,7 @@
   margin-bottom: 20px;
 }
 
-/* .form-field {
-  display: inline-block;
-  margin-bottom: 10px;
-} */
-
 .form-field:not(:last-child) {
   display: inline-block;
   margin-bottom: 10px;
 }
-
-/* спасибо, что помагаете. 
-мне стоило больше времени тратить на с\м изучение.
-за пол ночи понял,что последний input первого fieldset имел отступ с низу.
-я убрал у него класс и проблема ушла.
-но тогда last child не отработал, получается*/
